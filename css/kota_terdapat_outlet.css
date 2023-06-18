@@ -115,157 +115,70 @@ body {
     height: auto;
     position: relative;
 }
-.login-blank {
+.container {
     width: 100%;
-    height: 647px;
+    height: 551px;
     position: relative;
     top: 0px;
     left: 0px;
-    background: white;
+    background: #FFF8EE;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.login-box {
-    width: 688px;
-    height: 455px;
-    background: rgba(255,248,238,1);
-    opacity: 1;
+.choose-city-text {
+    width: 80%;
+    color: rgba(160,114,94,1);
     position: relative;
-    top: 0px;
+    top: -47px;
     left: 0px;
-    overflow: hidden;
-}
-.login-text {
-    width: auto;
-    height: auto;
-    color: rgba(69,40,7,1);
-    position: relative;
-    top: 19px;
-    left: 62px;
     font-family: Poppins;
     font-weight: Bold;
     font-size: 24px;
     opacity: 1;
     text-align: left;
 }
-.username-text {
-    width: auto;
-    color: rgba(69,40,7,1);
-    position: relative;
-    top: 38px;
-    left: 62px;
-    font-family: Poppins;
-    font-size: 18px;
+.city-box {
+    width: 80%;
+    height: 290px;
+    background: rgba(87,55,26,1);
+    padding: 45px 48px;
+    margin: 0px;
     opacity: 1;
-    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
 }
-.input-email {
-    width: 333px;
+.city-table {
+    width: 100%;
+}
+.city-table td {
+    width: 150px;
     height: 50px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: relative;
-    top: 36px;
-    left: 62px;
-    border: 2px solid rgba(69,40,7,1);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
+    background: rgba(87,55,26,1);
+    border: 3px solid;
+    border-color: #F5F5F5;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgba(245,245,245,1);
     font-family: Poppins;
-    font-size: 18px;
-}
-.password-text {
-    width: auto;
-    color: rgba(69,40,7,1);
-    position: relative;
-    top: 40px;
-    left: 62px;
-    font-family: Poppins;
-    font-size: 18px;
+    font-weight: Bold;
+    font-size: 20px;
     opacity: 1;
-    text-align: left;
-}
-.input-password {
-    width: 333px;
-    height: 50px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: relative;
-    top: 30px;
-    left: 62px;
-    border: 2px solid rgba(69,40,7,1);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-    font-family: Poppins;
-    font-size: 18px;
-}
-.input-button {
-    width: 133px;
-    height: 60px;
-    background: rgba(69,40,7,1);
-    opacity: 1;
-    position: relative;
-    top: 92px;
-    left: -276px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-    box-shadow: none;
-    color: rgba(255,255,255,1);
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 25px;
-    opacity: 1;
-}
-.remember-me-text {
-    width: 188px;
-    color: rgba(160,114,94,1);
-    position: relative;
-    top: 150px;
-    left: -412px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 25px;
-    opacity: 1;
-    text-align: left;
-}
-.remember-me-box {
-    width: 20px;
-    height: 20px;
-    background-color: rgba(255,248,238,1);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: relative;
-    top: 107px;
-    left: 250px;
-    border: 1.5px solid rgba(69,40,7,1);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    overflow: hidden;
-}
-.link-register {
-    width: 297px;
-    color: rgba(33,175,255,1);
-    position: relative;
-    top: 108px;
-    left: 61px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 25px;
-    opacity: 1;
-    text-align: left;
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    margin: 10px;
 }
 .social-media-box {
     width: 100%;

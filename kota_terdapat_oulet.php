@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet" />
-        <link href="./css/login.css" rel="stylesheet" />
+        <link href="./css/kota_terdapat_outlet.css" rel="stylesheet" />
         <title>Document</title>
     </head>
     <body>
@@ -21,19 +21,35 @@
             </table>
             <div class="nav-bar-pic-box"><img src="./assets/nav-bar_pic.png" class="nav-bar-pic"></div>
         </div>
-        <div class="login-blank">
-            <div class="login-box">
-                <div class="login-text">Login</div>
-                <form>
-                    <div class="username-text">Username or email address *</div>
-                    <input class="input-email" type="text" placeholder="Username or Email">
-                    <div class="password-text">Password *</div>
-                    <input class="input-password" type="password" placeholder="Password">
-                    <input class="input-button" type="submit" value="Log in">
-                    <label for="remember-me-box" class="remember-me-text">Remember me</label>
-                    <input id="remember-me-box" class="remember-me-box" type="checkbox">
-                </form>
-                <div class="link-register">Don't have an account?</div>
+        <div class="container">
+            <div class="choose-city-text">Select the city closest to you</div>
+            <div class="city-box">
+                <table class="city-table" cellspacing="10">
+                    <tr>
+                        <td>Bandung</td>
+                        <td>Yogyakarta</td>
+                        <td>Malang</td>
+                        <td>Tangerang</td>
+                        <td>Kediri</td>
+                        <td>Manado</td>
+                    </tr>
+                    <tr>
+                        <td>Jakarta</td>
+                        <td>Pekanbaru</td>
+                        <td>Palu</td>
+                        <td>Depok</td>
+                        <td>Palembang</td>
+                        <td>Toraja</td>
+                    </tr>
+                    <tr>
+                        <td>Surabaya</td>
+                        <td>Semarang</td>
+                        <td>Bekasi</td>
+                        <td>Bogor</td>
+                        <td>Padang</td>
+                        <td>Kendari</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="footer">
