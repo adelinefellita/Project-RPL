@@ -91,7 +91,7 @@ body {
     text-align: center;
 }
 .logo-chart-box {
-    width: 80px;
+    width: 100px;
     text-align: left;
     opacity: 1;
 }
@@ -99,7 +99,7 @@ body {
     width: 28px;
     height: 28px;
     top: 0px;
-    left: 0px;
+    left: 20px;
     position: relative;
 }
 .nav-bar-pic-box {
