@@ -148,6 +148,58 @@ hr{
     text-align: center;
 }
 
+.box{
+    width: 588px;
+    height: 170px;
+    border-radius: 20px;
+    background-color: #FFF8EE;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    text-align: left;
+    color: #A0725F;
+}
+
+.product-price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    position: relative;
+    top: 60px;
+    right: 30%;
+    text-align: right;
+    color: #A0725F;
+}
+
+.product-pic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    bottom: 75px;
+    left: 35%;
+}
+
 .list-menu{
     width: 480px;
     height: auto;
