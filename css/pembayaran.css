@@ -116,6 +116,118 @@ body {
     position: relative;
 }
 
+.container-1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.status-page{
+    width: 70%;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-cart{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #57381B;
+    position: relative;
+    left: 7px;
+}
+
+.status-line{
+    width: 330px;
+    height: 1px;
+    background: #57381B;
+}
+
+.circle-payment{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #57381B;
+    background: #57381B;
+    position: relative;
+    left: 30px;
+}
+
+.circle-finish{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #57381B;
+    position: relative;
+    left: 12px;
+}
+
+.status-text{
+    color: #57381B;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+..container-2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.metode-payment-box{
+    display: flex;
+    justify-content: center;
+    width: 573px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--3rd-color, #FFF8EE);
+    position: relative;
+    left: 30%;
+    padding-top: 40px;
+}
+
+.border-button-payment{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #57381B;
+}
+
+.button-payment{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #57381B;
+    position: relative;
+    left: 4px;
+    top: 4px;
+}
+
+.payment-text{
+    color: var(--second-color, #A0725F);
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.separate-line-box{
+    height: 25px;
+}
+
+.separate-line{
+    width: 500px;
+    height: 1px;
+    background: #000;
+}
 
 .social-media-box {
     width: 100%;
